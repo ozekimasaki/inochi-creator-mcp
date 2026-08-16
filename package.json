@@ -1,0 +1,33 @@
+{
+  "name": "inochi-creator-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for live-controlling a patched Inochi Creator instance",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "inochi-creator-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "inochi2d",
+    "inochi-creator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

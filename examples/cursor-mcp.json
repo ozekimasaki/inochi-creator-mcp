@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "inochi-creator": {
+      "command": "node",
+      "args": ["C:/Users/masam/Documents/inochi-creator-mcp/dist/index.js"],
+      "env": {
+        "INOCHI_MCP_PORT": "17320"
+      }
+    }
+  }
+}
